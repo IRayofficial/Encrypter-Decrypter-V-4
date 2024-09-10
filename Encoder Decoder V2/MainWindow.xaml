@@ -1,0 +1,124 @@
+﻿<Window x:Class="Encoder_Decoder_V2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Encoder_Decoder_V2"
+        mc:Ignorable="d"
+        Title="Encoder/Decoder V2" Height="720" Width="1280" MaxHeight="720" MaxWidth="1280" MinHeight="720" MinWidth="1280">
+    <Grid >
+        <Grid Visibility="Visible" Background="LightGray" x:Name="LoginWindow">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="6*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="1" Grid.Row="1" BorderBrush="Black" BorderThickness="2">
+                <Grid  Background="#8a9496">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="9" >
+                        <TextBlock
+                            TextAlignment="Center" 
+                            Text="Your Public Key"
+                            FontSize="35"
+                            Background="LightGray"
+                        />
+                    </Border>
+
+                    <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="9" >
+                        <TextBox
+                            TextAlignment="Center" 
+                            Text="---------"
+                            FontSize="35"
+                            Background="LightGray"
+                            x:Name="PKey"
+                            IsReadOnly="True"
+                         />
+                    </Border>
+
+                    <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="9" >
+                        <TextBlock
+                            TextAlignment="Center" 
+                            Text="Partner Public Key"
+                            FontSize="35"
+                            Background="LightGray"
+                        />
+                    </Border>
+
+                    <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="9" >
+                        <TextBox
+                            TextAlignment="Center" 
+                            FontSize="35"
+                            Background="DarkGray"
+                            x:Name="PKey2"
+                        />
+                    </Border>
+
+                    <Button Grid.Row="4" Grid.Column="1" Margin="9" Background="LightGreen" Content="Start Encryption" FontSize="35" Click="Button_Click"/>
+
+                </Grid>
+            </Border>
+
+        </Grid>
+
+        <Grid Visibility="Hidden" Background="#4368e0" x:Name="ChatWindow">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Margin="9" Grid.Column="0" Grid.Row="0" Background="Gray" Content="Go back" FontSize="20" x:Name="Back" Click="Back_Click"/>
+
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="0" Margin="9" >
+                <TextBlock Text="Encrypt" Background="Gray"  FontSize="50" TextAlignment="Center"/>
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="0" Margin="9" >
+                <TextBlock Text="Decrypt" Background="Gray"  FontSize="50" TextAlignment="Center"/>
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="1" Margin="9" >
+                <TextBox Background="LightGray" x:Name="EncryptText" FontSize="30" TextWrapping="Wrap" />
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="1" Margin="9" >
+                <TextBox Background="LightGray" x:Name="DecryptText" FontSize="30" TextWrapping="Wrap"/>
+            </Border>
+
+            <Button Margin="9" Grid.Column="1" Grid.Row="2" Background="Green" Content="Encrypt Text" FontSize="50" x:Name="EButton" Click="EButton_Click"/>
+            <Button Margin="9" Grid.Column="3" Grid.Row="2" Background="Red" Content="Decrypt Text" FontSize="50" x:Name="DButton" Click="DButton_Click"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\bin\Debug\net8.0-windows\Encoder Decoder V2.exe
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\bin\Debug\net8.0-windows\Encoder Decoder V2.deps.json
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\bin\Debug\net8.0-windows\Encoder Decoder V2.runtimeconfig.json
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\bin\Debug\net8.0-windows\Encoder Decoder V2.dll
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\bin\Debug\net8.0-windows\Encoder Decoder V2.pdb
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2_MarkupCompile.cache
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2_MarkupCompile.lref
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2.g.resources
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2.AssemblyInfoInputs.cache
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2.AssemblyInfo.cs
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2.csproj.CoreCompileInputs.cache
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2.dll
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\refint\Encoder Decoder V2.dll
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2.pdb
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2.genruntimeconfig.cache
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\ref\Encoder Decoder V2.dll
+C:\Users\IRay\source\repos\Encoder Decoder V2\Encoder Decoder V2\obj\Debug\net8.0-windows\Encoder Decoder V2.sourcelink.json
