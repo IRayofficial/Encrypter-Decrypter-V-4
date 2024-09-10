@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Encoder_Decoder_V2"
         mc:Ignorable="d"
-        Title="Encoder/Decoder V2" Height="1080" Width="1920">
+        Title="Encoder/Decoder V2" MinHeight="450" MinWidth="800" Height="450" Width="800">
     <Grid >
         <Grid Visibility="Visible" Background="LightGray" x:Name="LoginWindow">
             <Grid.RowDefinitions>
@@ -40,7 +40,7 @@
                         <TextBlock
                             TextAlignment="Center" 
                             Text="Your Public Key"
-                            FontSize="35"
+                            FontSize="32"
                             Background="LightGray"
                         />
                     </Border>
@@ -49,7 +49,7 @@
                         <TextBox
                             TextAlignment="Center" 
                             Text="---------"
-                            FontSize="35"
+                            FontSize="32"
                             Background="LightGray"
                             x:Name="PKey"
                             IsReadOnly="True"
@@ -60,7 +60,7 @@
                         <TextBlock
                             TextAlignment="Center" 
                             Text="Partner Public Key"
-                            FontSize="35"
+                            FontSize="32"
                             Background="LightGray"
                         />
                     </Border>
@@ -68,13 +68,13 @@
                     <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="9" >
                         <TextBox
                             TextAlignment="Center" 
-                            FontSize="35"
+                            FontSize="32"
                             Background="DarkGray"
                             x:Name="PKey2"
                         />
                     </Border>
 
-                    <Button Grid.Row="4" Grid.Column="1" Margin="9" Background="LightGreen" Content="Start Encryption" FontSize="35" Click="Button_Click"/>
+                    <Button Grid.Row="4" Grid.Column="1" Margin="9" Background="LightGreen" Content="Start Encryption" FontSize="32" Click="Button_Click"/>
 
                 </Grid>
             </Border>
@@ -97,14 +97,14 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Button Margin="9" Grid.Column="0" Grid.Row="0" Background="Gray" Content="Go back" FontSize="20" x:Name="Back" Click="Back_Click"/>
+            <Button Margin="9" Grid.Column="0" Grid.Row="0" Background="Gray" Content="Go back" FontSize="10" x:Name="Back" Click="Back_Click"/>
 
             <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="0" Margin="9" >
-                <TextBlock Text="Encrypt" Background="Gray"  FontSize="50" TextAlignment="Center"/>
+                <TextBlock Text="Encrypt" Background="Gray"  FontSize="30" TextAlignment="Center"/>
             </Border>
 
             <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="0" Margin="9" >
-                <TextBlock Text="Decrypt" Background="Gray"  FontSize="50" TextAlignment="Center"/>
+                <TextBlock Text="Decrypt" Background="Gray"  FontSize="30" TextAlignment="Center"/>
             </Border>
 
             <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="1" Margin="9" >
@@ -115,8 +115,8 @@
                 <TextBox Background="LightGray" x:Name="DecryptText" FontSize="30" TextWrapping="Wrap"/>
             </Border>
 
-            <Button Margin="9" Grid.Column="1" Grid.Row="2" Background="Green" Content="Encrypt Text" FontSize="50" x:Name="EButton" Click="EButton_Click"/>
-            <Button Margin="9" Grid.Column="3" Grid.Row="2" Background="Red" Content="Decrypt Text" FontSize="50" x:Name="DButton" Click="DButton_Click"/>
+            <Button Margin="9" Grid.Column="1" Grid.Row="2" Background="Green" Content="Encrypt Text" FontSize="30" x:Name="EButton" Click="EButton_Click"/>
+            <Button Margin="9" Grid.Column="3" Grid.Row="2" Background="Red" Content="Decrypt Text" FontSize="30" x:Name="DButton" Click="DButton_Click"/>
 
         </Grid>
 
